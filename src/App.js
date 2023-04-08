@@ -45,7 +45,7 @@ function App(){
          <div key={image.id} className="card">
             <img src={image.urls.regular} className="card-img"/>
             <div className="card-content">
-              <div className="card-title">{image.alt_discription}</div>
+              <div className="card-title">{image.alt_description}</div>
             </div>
          </div>
        ))
